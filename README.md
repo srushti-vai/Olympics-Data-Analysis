@@ -6,7 +6,7 @@
 
 **Cleaning: Removing duplicates, filling missing values, etc.**
 athletes_df: 
-- mainly age, height, weight (try filling these by stacking and sorting by gender and sport and impute)
+- DONE: mainly age, height, weight (try filling these by stacking and sorting by gender and sport and impute)
 - look at height and weight outliers and relate them to the sport that they are from
 summer: 
 - talk about NA in medals, but don't remove them (or if you want to show removing them, then create a df subset that only has athletes who won a medal)
@@ -32,18 +32,18 @@ winter:
 
 
 **Merging data in different ways with explanations.**
-- merge all three datasets by the athlete name
+- DONE: merge all three datasets by the athlete name
 - merge only winter and summer to do the filter of people who have participated in both seasons, or countries who have only participated in one season
-- 
+- merge winter and athletes, and summer and athletes, then take a subset of each that only has the NOC, Team, and Medals column, and merge these to analyze medals by country
 
 
 **Visualizing data using at least five types of visualizations (e.g., scatter plots, bar charts, histograms, line charts, boxplots, etc).**
 - compare number of athletes vs number of medals won by the country
 - if host country perform better at their home games
-- compare distribution of medals won by country in winter vs summer (bar graph)
-- histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis)
+- compare distribution of medals won by country in winter vs summer (stacked bar graph)
+- histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis) (histogram)
 - compare male vs female statistics (ex boxplots to compare male vs female height for volleyball)
-- graph age for all athletes and see where most athletes lie
+- graph age for all athletes and see where most athletes lie (density graph)
 - athlete improvements (using pivot table) (line graph)
 
 
