@@ -33,7 +33,7 @@ winter:
 
 **Merging data in different ways with explanations.**
 - DONE: merge all three datasets by the athlete name
-- merge only winter and summer to do the filter of people who have participated in both seasons, or countries who have only participated in one season
+- DONE: merge only winter and summer to do the filter of people who have participated in both seasons, or countries who have only participated in one season
 - merge winter and athletes, and summer and athletes, then take a subset of each that only has the NOC, Team, and Medals column, and merge these to analyze medals by country
 
 
@@ -43,10 +43,10 @@ winter:
 - compare distribution of medals won by country in winter vs summer (stacked bar graph)
 - histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis) (histogram)
 - compare male vs female statistics (ex boxplots to compare male vs female height for volleyball)
-- graph age for all athletes and see where most athletes lie (density graph)
+- DONE: graph age for all athletes and see where most athletes lie (density graph)
 - athlete improvements (using pivot table) (line graph)
 
 
 **Pivoting or stacking your data with explanations.**
-- stack by country and gender to break down biometrics by demographic
+- stack by country and gender to break down biometrics average by demographic (agg func = 'mean')
 - pivot the data by player names and have the columns be the games, and values be the medals to see the change in their winnings and improvement through the years
