@@ -18,15 +18,15 @@ winter:
 
 
 **Filtering subsets of your data with explanations.**
-- filter male vs female (weight amd height for various sports)
-- filter a df of only the winners (meaning the non NA medal rows) can further subset (using group by) into gold silver bronze to see if any country consistently places
-- filter team sports subset and individual sports subset
-- filter people who have participated in both winter and summer olympics (its ok if the result is 0, thats what we want to see)
+- DONE: filter male vs female (weight amd height for various sports)
+- DONE: filter a df of only the winners (meaning the non NA medal rows) can 
+    - further subset (using group by) into gold silver bronze to see if any country consistently places
+- XXX: filter team sports subset and individual sports subset
 - filter countries who ONLY participate in summer or ONLY participate in winter, not both
 
 
 **Sorting your data with explanations.**
-- sorting by which sport a country is best at (by num of medals)
+- sort by number of medals per country
 - sorting by age of athletes (can be done with male, female, and total) to see oldest athletes (used in visualization)
 - 
 
@@ -41,6 +41,7 @@ winter:
 - compare number of athletes vs number of medals won by the country
 - if host country perform better at their home games
 - compare distribution of medals won by country in winter vs summer (stacked bar graph)
+- bar graph of top 10 countries with most medals (bar graph)
 - histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis) (histogram)
 - compare male vs female statistics (ex boxplots to compare male vs female height for volleyball)
 - DONE: graph age for all athletes and see where most athletes lie (density graph)
@@ -49,4 +50,4 @@ winter:
 
 **Pivoting or stacking your data with explanations.**
 - stack by country and gender to break down biometrics average by demographic (agg func = 'mean')
-- pivot the data by player names and have the columns be the games, and values be the medals to see the change in their winnings and improvement through the years
+- DONE: pivot the data by player names and have the columns be the games, and values be the medals to see the change in their winnings and improvement through the years
