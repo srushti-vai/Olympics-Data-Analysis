@@ -26,7 +26,7 @@ winter:
 
 
 **Sorting your data with explanations.**
-- sort by number of medals per country
+- DONE: sort by number of medals per country
 - DONE: sorting by age of athletes (can be done with male, female, and total) to see oldest athletes (used in visualization)
 - 
 
@@ -34,7 +34,7 @@ winter:
 **Merging data in different ways with explanations.**
 - DONE: merge all three datasets by the athlete name
 - DONE: merge only winter and summer to do the filter of people who have participated in both seasons, or countries who have only participated in one season
-- merge winter and athletes, and summer and athletes, then take a subset of each that only has the NOC, Team, and Medals column, and merge these to analyze medals by country
+- DONE: merge winter and athletes, and summer and athletes, then take a subset of each that only has the NOC, Team, and Medals column, and merge these to analyze medals by country
 
 
 **Visualizing data using at least five types of visualizations (e.g., scatter plots, bar charts, histograms, line charts, boxplots, etc).**
@@ -51,5 +51,5 @@ winter:
 
 
 **Pivoting or stacking your data with explanations.**
-- stack by country and gender to break down biometrics average by demographic (agg func = 'mean')
+- DONE: stack by country and gender to break down biometrics average by demographic (agg func = 'mean')
 - DONE: pivot the data by player names and have the columns be the games, and values be the medals to see the change in their winnings and improvement through the years
