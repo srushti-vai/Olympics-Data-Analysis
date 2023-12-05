@@ -27,7 +27,7 @@ winter:
 
 **Sorting your data with explanations.**
 - sort by number of medals per country
-- sorting by age of athletes (can be done with male, female, and total) to see oldest athletes (used in visualization)
+- DONE: sorting by age of athletes (can be done with male, female, and total) to see oldest athletes (used in visualization)
 - 
 
 
@@ -40,11 +40,13 @@ winter:
 **Visualizing data using at least five types of visualizations (e.g., scatter plots, bar charts, histograms, line charts, boxplots, etc).**
 - compare number of athletes vs number of medals won by the country
 - if host country perform better at their home games
-- compare distribution of medals won by country in winter vs summer (stacked bar graph)
-- bar graph of top 10 countries with most medals (bar graph)
-- histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis) (histogram)
+- XXX: compare distribution of medals won by country in winter vs summer (stacked bar graph)
+- DONE: bar graph of top 10 countries with most medals (bar graph)
+- DONE: histogram of number of medals won (as bins on xaxis) and number of countries who have won that many medals (yaxis) (histogram)
 - compare male vs female statistics (ex boxplots to compare male vs female height for volleyball)
 - DONE: graph age for all athletes and see where most athletes lie (density graph)
+- DONE: scatter plot representing the differences between winter athletes and summer athletes physiques (scatter plot)
+- DONE: creates a box plot of average number of times an athlete wins (not including atheles who have never won) (box plot)
 - athlete improvements (using pivot table) (line graph)
 
 
